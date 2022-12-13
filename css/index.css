@@ -1,0 +1,68 @@
+body{
+  margin: 20px;
+  font-family: 'Martian Mono', monospace;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav{
+  font-size: 25px;
+}
+
+ul.nav a:hover { color: green !important; }
+
+.jumbotron {
+    background-image: url("../images/C1banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jumbotext{
+    font-size: 50px;
+    background-color: white; 
+    padding:20px 30px 20px 30px;
+    color:  rgb(255, 185, 44);
+  }
+
+  .backgroundOne{
+    padding: 40px 60px 40px 60px;
+    background-color: rgb(255, 185, 44);
+    color: white;
+  }
+
+  h5{
+    font-size: 40px;
+    color: rgba(121, 86, 61, 0.883);
+  }
+
+  p{
+    font-size: 25px;
+    color: rgb(255, 185, 44);
+  }
+
+  .pwhite{
+    font-size: 25px;
+    color: white;
+  }
+
+
+  /* skills */
+.skill{
+	background-color: rgba(121, 86, 61, 0.883);
+}
+
+.underline{
+	width: 150px;
+	border: 3px solid #eee;
+	margin: auto;
+}
+
+.icons{
+  color: white;
+}
+/* end of skills */
